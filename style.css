@@ -1,0 +1,70 @@
+:root {
+    --bg-color-light: #f5f5f5;
+    --text-color-light: #333;
+    --bg-color-dark: #121212;
+    --text-color-dark: #f5f5f5;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.light {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  
+  body.dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #6200ea;
+    color: #fff;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6200ea;
+    color: #fff;
+  }
+  
+  .theme-toggle {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #fff;
+    color: #6200ea;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .scroll-top-btn {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: none;
+    padding: 0.5rem;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scroll-top-btn.show {
+    display: block;
+  }
+  
