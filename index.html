@@ -3,32 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AIExplorer - Legal</title>
+  <title>AIExxplorer - Discord Bot</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-  <header class="header">
-    <h1>AIExplorer Legal</h1>
-    <button id="themeToggle" class="theme-toggle">Toggle Theme</button>
-  </header>
+<body class="light">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <img src="bot-logo.png" alt="AIExxplorer Logo" class="logo">
+      <span>AIExxplorer</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <button id="themeToggle" class="theme-toggle">
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-moon"></i>
+    </button>
+    <button class="mobile-menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
 
   <main class="content">
-    <section>
-      <h2>Terms of Service</h2>
-      <p>Welcome to AIExplorer! These are our terms of service...</p>
+    <section class="hero">
+      <h1>Welcome to AIExxplorer</h1>
+      <p>Your intelligent Discord companion for enhanced server management and engagement</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn primary">Add to Discord</a>
+        <a href="#features" class="btn secondary">Learn More</a>
+      </div>
     </section>
 
-    <section>
-      <h2>Privacy Policy</h2>
-      <p>Your privacy is important to us...</p>
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-robot"></i>
+          <h3>AI-Powered</h3>
+          <p>Advanced artificial intelligence for smart interactions</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Secure</h3>
+          <p>Top-notch security for your server and data</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-bolt"></i>
+          <h3>Fast</h3>
+          <p>Lightning-fast responses and processing</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2025 AIExplorer. All Rights Reserved.</p>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2025 Wagner Rafael | AIExxplorer. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
-  <button id="scrollTopBtn" class="scroll-top-btn">⬆</button>
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <script src="script.js"></script>
 </body>
