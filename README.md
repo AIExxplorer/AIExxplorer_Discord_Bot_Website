@@ -89,6 +89,12 @@ O site é compatível com os seguintes navegadores:
 - Microsoft Edge (última versão)
 - Opera (última versão)
 
+## 🤝 CONVIDE O BOT PARA O SEU SERVIDOR:
+
+```
+https://discord.com/oauth2/authorize?client_id=1331465637184278578&permissions=35737100864592&scope=bot%20applications.commands
+```
+
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
