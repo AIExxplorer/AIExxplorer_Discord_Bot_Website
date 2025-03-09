@@ -1,3 +1,5 @@
+[![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)
+
 # AIExxplorer Discord Bot - Website
 
 Este é o repositório oficial do website do AIExxplorer Discord Bot, uma interface moderna e responsiva que apresenta as funcionalidades e informações legais do bot.
